@@ -3,7 +3,6 @@ import Document, { Head, Main, NextScript } from 'next/document';
 import { ServerStyleSheets } from '@material-ui/styles';
 import theme from '../src/theme/theme';
 
-
 class MyDocument extends Document {
   render() {
     return (

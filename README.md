@@ -1,4 +1,4 @@
-# Comm Risk Client
+# Organization Service Client
 
 ## Overview
 
