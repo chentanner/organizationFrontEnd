@@ -1,0 +1,37 @@
+{
+  "name": "react-organization-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "set NODE_ENV=developer&& node server.js",
+    "build": "next build",
+    "start": "set NODE_ENV=production&& node server.js"
+  },
+  "dependencies": {
+    "@jsonforms/core": "^2.3.1",
+    "@jsonforms/material-renderers": "^2.3.1",
+    "@jsonforms/react": "^2.3.1",
+    "@material-ui/core": "^4.4.0",
+    "@material-ui/icons": "^4.2.1",
+    "axios": "^0.19.0",
+    "clsx": "^1.0.4",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "immutable": "^4.0.0-rc.12",
+    "material-table": "^1.50.0",
+    "next": "9.0.5",
+    "next-redux-saga": "^4.0.2",
+    "next-redux-wrapper": "^3.0.0",
+    "next-routes": "^1.4.2",
+    "prop-types": "^15.7.2",
+    "react": "16.9.0",
+    "react-dom": "16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-redux": "^4.0.8",
+    "react-window": "^1.8.5",
+    "react-window-infinite-loader": "^1.0.4",
+    "redux": "^4.0.4",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-saga": "^1.0.5"
+  }
+}
