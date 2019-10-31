@@ -84,7 +84,7 @@ const AppWrapper = (props) => {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar appName="Base App Title" open={open} onMenuClick={handleDrawerOpen} />
+      <AppBar appName="Organization Viewer" open={open} onMenuClick={handleDrawerOpen} />
       <SideBar drawerConfig={drawerConfig} open={open} onDrawerClose={handleDrawerClose} />
       <main className={classes.content}>
         <div className={classes.toolbar} />

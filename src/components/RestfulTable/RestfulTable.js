@@ -86,7 +86,7 @@ const RestfulTable = props => {
                                     let page = Math.floor(result.data.start / result.data.limit)
 
                                     resolve({
-                                        data: result.data.items,
+                                        data: result.data.items || [],
                                         page: page,
                                         totalCount: result.data.count,
                                     });
